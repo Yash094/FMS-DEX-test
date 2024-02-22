@@ -217,7 +217,7 @@ export default function Home() {
             rounded="xl"
             isDisabled={loading}
           >
-            {loading ? <Spinner /> : "Execute Swap"}
+            {loading ? <Spinner /> : "Swap"}
           </Button>
         ) : (
           <ConnectWallet 
