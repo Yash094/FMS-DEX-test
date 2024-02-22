@@ -205,7 +205,7 @@ export default function Home() {
             max={tokenBalance?.displayValue}
             value={tokenValue}
             setValue={setTokenValue}
-            tokenImage={tokenMetadata?.image} tokenBalance={""} tokenSymbol={""}          />
+            tokenImage={tokenMetadata?.image} />
         </Flex>
 
         {address ? (
