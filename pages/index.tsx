@@ -185,7 +185,7 @@ export default function Home() {
             max={nativeBalance?.displayValue}
             value={nativeValue}
             setValue={setNativeValue}
-            tokenImage={"https://i.imgur.com/z0Mnily.png"} tokenBalance={""} tokenSymbol={""}          />
+            tokenImage={"https://i.imgur.com/z0Mnily.png"} />
 
           <Button
             onClick={() =>
