@@ -59,7 +59,7 @@ export default function Home() {
 
   const { mutateAsync: swapNativeToToken } = useContractWrite(
     dexContract,
-    "swapEthTotoken"
+    "swapEthToToken"
   );
   const { mutateAsync: swapTokenToNative } = useContractWrite(
     dexContract,
